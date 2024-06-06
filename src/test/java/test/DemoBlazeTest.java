@@ -62,7 +62,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 		
 		homePageObj.logInUser();
 		String result = loginPageObj.login(emailID, password, false);
-		Assert.assertEquals(result, "Login not Successful"); //verifying based on the alert message display with asserion
+		Assert.assertEquals(result, "Login not Successful"); //verifying based on the alert message display with assertion
 		if(result=="Login Successful")
 		homePageObj.logOutUser();
 	}
