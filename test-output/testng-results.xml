@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-06T15:00:46 IST" name="Suite" finished-at="2024-06-06T15:02:24 IST" duration-ms="97899">
+  <suite started-at="2024-06-06T15:42:10 IST" name="Suite" finished-at="2024-06-06T15:43:52 IST" duration-ms="101778">
     <groups>
     </groups>
-    <test started-at="2024-06-06T15:00:46 IST" name="Test" finished-at="2024-06-06T15:02:24 IST" duration-ms="97899">
+    <test started-at="2024-06-06T15:42:10 IST" name="Test" finished-at="2024-06-06T15:43:52 IST" duration-ms="101778">
       <class name="test.DemoBlazeTest">
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:00:46 IST" name="browserLaunch" finished-at="2024-06-06T15:00:54 IST" duration-ms="7908" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:10 IST" name="browserLaunch" finished-at="2024-06-06T15:42:23 IST" duration-ms="12591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="getTitle(java.lang.String)[pri:1, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:00:54 IST" name="getTitle" finished-at="2024-06-06T15:00:54 IST" duration-ms="72" status="PASS">
+        <test-method signature="getTitle(java.lang.String)[pri:1, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:23 IST" name="getTitle" finished-at="2024-06-06T15:42:23 IST" duration-ms="140" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:00:54 IST" name="browserClose" finished-at="2024-06-06T15:00:54 IST" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:23 IST" name="browserClose" finished-at="2024-06-06T15:42:24 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:00:56 IST" name="browserLaunch" finished-at="2024-06-06T15:01:01 IST" duration-ms="4755" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:26 IST" name="browserLaunch" finished-at="2024-06-06T15:42:32 IST" duration-ms="6523" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,7 +54,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="validSignUp(java.lang.String,java.lang.String)[pri:2, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:01 IST" name="validSignUp" data-provider="Valid_SignUpCredentials" finished-at="2024-06-06T15:01:05 IST" duration-ms="3523" status="PASS">
+        <test-method signature="validSignUp(java.lang.String,java.lang.String)[pri:2, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:32 IST" name="validSignUp" data-provider="Valid_SignUpCredentials" finished-at="2024-06-06T15:42:35 IST" duration-ms="2622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,11 +70,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validSignUp -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:05 IST" name="browserClose" finished-at="2024-06-06T15:01:05 IST" duration-ms="467" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:35 IST" name="browserClose" finished-at="2024-06-06T15:42:35 IST" duration-ms="402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:05 IST" name="browserLaunch" finished-at="2024-06-06T15:01:10 IST" duration-ms="4770" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:35 IST" name="browserLaunch" finished-at="2024-06-06T15:42:40 IST" duration-ms="4379" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="validSignUp(java.lang.String,java.lang.String)[pri:2, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:10 IST" name="validSignUp" data-provider="Valid_SignUpCredentials" finished-at="2024-06-06T15:01:13 IST" duration-ms="3386" status="PASS">
+        <test-method signature="validSignUp(java.lang.String,java.lang.String)[pri:2, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:40 IST" name="validSignUp" data-provider="Valid_SignUpCredentials" finished-at="2024-06-06T15:42:42 IST" duration-ms="2675" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,11 +106,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validSignUp -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:13 IST" name="browserClose" finished-at="2024-06-06T15:01:13 IST" duration-ms="158" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:42 IST" name="browserClose" finished-at="2024-06-06T15:42:43 IST" duration-ms="528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:13 IST" name="browserLaunch" finished-at="2024-06-06T15:01:18 IST" duration-ms="4581" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:43 IST" name="browserLaunch" finished-at="2024-06-06T15:42:48 IST" duration-ms="4715" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -126,7 +126,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="InValidSignUp(java.lang.String,java.lang.String)[pri:3, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:18 IST" name="InValidSignUp" data-provider="Invalid_SignUpCredentials" finished-at="2024-06-06T15:01:20 IST" duration-ms="2245" status="PASS">
+        <test-method signature="InValidSignUp(java.lang.String,java.lang.String)[pri:3, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:48 IST" name="InValidSignUp" data-provider="Invalid_SignUpCredentials" finished-at="2024-06-06T15:42:50 IST" duration-ms="1742" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -142,11 +142,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InValidSignUp -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:20 IST" name="browserClose" finished-at="2024-06-06T15:01:20 IST" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:50 IST" name="browserClose" finished-at="2024-06-06T15:42:50 IST" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:20 IST" name="browserLaunch" finished-at="2024-06-06T15:01:27 IST" duration-ms="6421" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:50 IST" name="browserLaunch" finished-at="2024-06-06T15:42:54 IST" duration-ms="4022" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="InValidSignUp(java.lang.String,java.lang.String)[pri:3, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:27 IST" name="InValidSignUp" data-provider="Invalid_SignUpCredentials" finished-at="2024-06-06T15:01:29 IST" duration-ms="1939" status="PASS">
+        <test-method signature="InValidSignUp(java.lang.String,java.lang.String)[pri:3, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:54 IST" name="InValidSignUp" data-provider="Invalid_SignUpCredentials" finished-at="2024-06-06T15:42:56 IST" duration-ms="1917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -178,11 +178,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InValidSignUp -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:29 IST" name="browserClose" finished-at="2024-06-06T15:01:29 IST" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:56 IST" name="browserClose" finished-at="2024-06-06T15:42:56 IST" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:29 IST" name="browserLaunch" finished-at="2024-06-06T15:01:35 IST" duration-ms="5586" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:42:56 IST" name="browserLaunch" finished-at="2024-06-06T15:43:01 IST" duration-ms="4690" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -198,7 +198,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:4, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:35 IST" name="validLogin" data-provider="Valid_LogInCredentials" finished-at="2024-06-06T15:01:49 IST" duration-ms="14381" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:4, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:01 IST" name="validLogin" data-provider="Valid_LogInCredentials" finished-at="2024-06-06T15:43:16 IST" duration-ms="14822" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -214,11 +214,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:49 IST" name="browserClose" finished-at="2024-06-06T15:01:49 IST" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:16 IST" name="browserClose" finished-at="2024-06-06T15:43:16 IST" duration-ms="546" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:49 IST" name="browserLaunch" finished-at="2024-06-06T15:01:53 IST" duration-ms="4065" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:16 IST" name="browserLaunch" finished-at="2024-06-06T15:43:21 IST" duration-ms="4728" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -234,7 +234,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:4, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:01:53 IST" name="validLogin" data-provider="Valid_LogInCredentials" finished-at="2024-06-06T15:02:08 IST" duration-ms="14767" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:4, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:21 IST" name="validLogin" data-provider="Valid_LogInCredentials" finished-at="2024-06-06T15:43:35 IST" duration-ms="13569" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -250,11 +250,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:02:08 IST" name="browserClose" finished-at="2024-06-06T15:02:09 IST" duration-ms="318" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:35 IST" name="browserClose" finished-at="2024-06-06T15:43:35 IST" duration-ms="479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:02:09 IST" name="browserLaunch" finished-at="2024-06-06T15:02:13 IST" duration-ms="4249" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:35 IST" name="browserLaunch" finished-at="2024-06-06T15:43:40 IST" duration-ms="4728" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -270,7 +270,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:5, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:02:13 IST" name="InvalidLogin" data-provider="Invalid_LogInCredentials" finished-at="2024-06-06T15:02:16 IST" duration-ms="3570" status="PASS">
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:5, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:40 IST" name="InvalidLogin" data-provider="Invalid_LogInCredentials" finished-at="2024-06-06T15:43:44 IST" duration-ms="3509" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -286,11 +286,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:02:16 IST" name="browserClose" finished-at="2024-06-06T15:02:17 IST" duration-ms="237" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:44 IST" name="browserClose" finished-at="2024-06-06T15:43:44 IST" duration-ms="437" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:02:17 IST" name="browserLaunch" finished-at="2024-06-06T15:02:21 IST" duration-ms="4347" status="PASS">
+        <test-method is-config="true" signature="browserLaunch(java.lang.String,java.lang.String)[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:44 IST" name="browserLaunch" finished-at="2024-06-06T15:43:49 IST" duration-ms="5317" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -306,7 +306,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunch -->
-        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:5, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:02:21 IST" name="InvalidLogin" data-provider="Invalid_LogInCredentials" finished-at="2024-06-06T15:02:24 IST" duration-ms="2498" status="PASS">
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:5, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:49 IST" name="InvalidLogin" data-provider="Invalid_LogInCredentials" finished-at="2024-06-06T15:43:51 IST" duration-ms="2026" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -322,7 +322,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidLogin -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:02:24 IST" name="browserClose" finished-at="2024-06-06T15:02:24 IST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.DemoBlazeTest@46d59067]" started-at="2024-06-06T15:43:51 IST" name="browserClose" finished-at="2024-06-06T15:43:52 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->

@@ -16,7 +16,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 	public void getTitle(String homePageTitle) {
 
 		System.out.println(driver.getTitle());
-		Assert.assertEquals(driver.getTitle(), homePageTitle);	
+		Assert.assertEquals(driver.getTitle(), homePageTitle);	//verifying the tile with assertion
 	}	
 	
 	//Testing the Sign Up functionality with valid credentials
@@ -27,7 +27,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 		
 		homePageObj.signUpNewUser();
 		boolean isAlertValid = signUpPageObj.enterCredentials(emailID, password, false);
-		Assert.assertTrue(isAlertValid);
+		Assert.assertTrue(isAlertValid); //verifying based on the alert message display with asserion
 	}
 	
 	//Testing the Sign Up functionality with Invalid credentials
@@ -38,7 +38,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 		
 		homePageObj.signUpNewUser();
 		boolean isAlertValid = signUpPageObj.enterCredentials(emailID, password, false);
-		Assert.assertFalse(isAlertValid);
+		Assert.assertFalse(isAlertValid); //verifying based on the alert message display with asserion
 	}
 	
 	//Testing the LogIn functionality with valid credentials
@@ -49,7 +49,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 		
 		homePageObj.logInUser();
 		String result = loginPageObj.login(emailID, password, false);
-		Assert.assertEquals(result, "Login Successful");
+		Assert.assertEquals(result, "Login Successful"); //verifying the successful login based on the profile display with assertion
 		if(result=="Login Successful")
 		homePageObj.logOutUser();
 	}
@@ -62,7 +62,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 		
 		homePageObj.logInUser();
 		String result = loginPageObj.login(emailID, password, false);
-		Assert.assertEquals(result, "Login not Successful");
+		Assert.assertEquals(result, "Login not Successful"); //verifying based on the alert message display with asserion
 		if(result=="Login Successful")
 		homePageObj.logOutUser();
 	}
