@@ -12,7 +12,7 @@
       <class name="test.DemoBlazeTest">
         <methods>
           <include name="browserClose"/>
-          <include name="validLogin" invocation-numbers="0 1"/>
+          <include name="validLogin" invocation-numbers="1"/>
           <include name="browserLaunch"/>
         </methods>
       </class> <!-- test.DemoBlazeTest -->
