@@ -16,7 +16,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 	public void getTitle(String homePageTitle) {
 
 		System.out.println(driver.getTitle());
-		Assert.assertEquals(driver.getTitle(), homePageTitle);	//verifying the tile with assertion
+		Assert.assertEquals(driver.getTitle(), homePageTitle);	//verifying the page tile with assertion
 	}	
 	
 	//Testing the Sign Up functionality with valid credentials
