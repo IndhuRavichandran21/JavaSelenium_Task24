@@ -5,7 +5,7 @@
 		<listener class-name="utils.Listener"></listener>
 	</listeners>
 		
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="Chrome Test">
 	<parameter name="browser" value="chrome"></parameter>
 	<parameter name="url" value="https://www.demoblaze.com/"></parameter>
 	<parameter name="homePageTitle" value="STORE"></parameter>
@@ -13,4 +13,7 @@
       <class name="test.DemoBlazeTest"/>
     </classes>
   </test> <!-- Test -->
+
+  <!-- Repeat entire test tag for firefox to implement cross browser testing without parallel testing -->
+  
 </suite> <!-- Suite -->

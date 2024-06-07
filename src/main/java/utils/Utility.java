@@ -4,6 +4,12 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
@@ -13,9 +19,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -23,11 +27,15 @@ public class Utility {
 	
 	public static WebDriver driver;
 	
-	
-    //Launch the browser and yrl
+    //Launch the browser and url
 	public void launchBrowser(String browser, String url) {
-		if(browser.equals("chrome"))
+		
+		//ChromeOptions options = new ChromeOptions();
+		if(browser.equals("chrome"))		 
+			//options.addArguments("headless");
+		//driver = new ChromeDriver(options);
 		driver = new ChromeDriver();
+		
 		if(browser.equals("firefox"))
 			driver = new FirefoxDriver();
 		
@@ -40,7 +48,7 @@ public class Utility {
 	
 	//close the browser
 	public void closeBrowser() {
-		driver.close();
+		driver.quit();
 	}
 	
 	//get the data from the excel based on the sheetName
