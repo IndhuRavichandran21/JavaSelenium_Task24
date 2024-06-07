@@ -10,7 +10,7 @@ import pages.SignUpPage;
 
 public class DemoBlazeTest extends ProjectSpecificationMethod{	
 	
-	//validate title of the homepage
+	//validate title of the home page
 	@Parameters({"homePageTitle"})
 	@Test(priority=1)
 	public void getTitle(String homePageTitle) {
