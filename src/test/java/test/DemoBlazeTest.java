@@ -31,7 +31,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 	}
 	
 	//Testing the Sign Up functionality with Invalid credentials
-	//@Test(priority=3,dataProvider = "Invalid_SignUpCredentials")
+	@Test(priority=3,dataProvider = "Invalid_SignUpCredentials")
 	public void InValidSignUp(String emailID, String password) {
 		HomePage homePageObj = new HomePage(driver);
 		SignUpPage signUpPageObj = new SignUpPage(driver);
@@ -42,7 +42,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 	}
 	
 	//Testing the LogIn functionality with valid credentials
-	//@Test(priority=4,dataProvider = "Valid_LogInCredentials")
+	@Test(priority=4,dataProvider = "Valid_LogInCredentials")
 	public void validLogin(String emailID, String password) { 
 		HomePage homePageObj = new HomePage(driver);
 		LoginPage loginPageObj = new LoginPage(driver);
@@ -55,7 +55,7 @@ public class DemoBlazeTest extends ProjectSpecificationMethod{
 	}
 	
 	//Testing the Login functionality with Invalid credentials
-	//@Test(priority=5,dataProvider = "Invalid_LogInCredentials")
+	@Test(priority=5,dataProvider = "Invalid_LogInCredentials")
 	public void InvalidLogin(String emailID, String password) { 
 		HomePage homePageObj = new HomePage(driver);
 		LoginPage loginPageObj = new LoginPage(driver);
